@@ -5,7 +5,7 @@
       <Navbar />
     </div>
     <div class="carousel"><Carousel /></div>
-    <CategoryList />
+    <div class="CategoryList"> <CategoryList /> </div>
     <CardList />
     <FooterCard />
   </div>
@@ -16,6 +16,12 @@ export default {};
 </script>
 
 <style scoped>
+.CategoryList {
+  margin: auto;
+  max-width: 96%;
+  height: 780px;
+  padding-top: 58px; 
+}
 .carousel {
   margin: auto;
   max-width: 96%;
@@ -29,7 +35,7 @@ export default {};
   top: 0px;
   background: #f9f1e7;
 }
-@media (max-width: 965px) {
+@media (max-width: 1040px) {
   .carousel {
     display: none;
   }

@@ -6,6 +6,8 @@
     </div>
     <div class="carousel"><Carousel /></div>
     <CategoryList />
+    <CardList />
+    <FooterCard />
   </div>
 </template>
 
